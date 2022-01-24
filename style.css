@@ -1,3 +1,9 @@
+main{
+    text-shadow: 1px 0 0 #000000, 1px 1px 0 #000000, 0 1px 0 #000000, -1px 1px 0 #000000, -1px 0 0 #000000, -1px -1px 0 #000000, 0 -1px 0 #000000, 1px -1px 0 #000000; 
+    color: white;
+    text-align: justify;
+}
+
 header{
 
     background-color: #C70101;
@@ -30,3 +36,60 @@ body{
     position: absolute;
     opacity:0.5;
 }
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1250px;
+    height: 1000px;
+    
+}
+
+#box1{
+    width: 300px;
+    height: 1000px;
+}
+
+#box2{
+    width: 600px ;
+    height: 1000px;
+}
+#box3{
+    width: 300px;
+    height: 1000px;
+}
+
+h2{
+    text-align: center;
+}
+#boutique{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 540px;
+    height: 230px;
+    margin-top: 20px;
+}
+
+
+fieldset{
+    background-color: #C70101;
+}
+
+#boutique. *img{
+    width: 130px;
+    height: 136px;
+    margin-top: 10px;
+}
+
+input{
+    background-color: #C70101;
+    color: yellow;
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+
