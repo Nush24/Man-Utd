@@ -1,0 +1,32 @@
+header{
+
+    background-color: #C70101;
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.menu{
+    top:2.5%;
+    left: 5%;
+    position: absolute;
+}
+
+body{
+    background-image: url("img/Stade.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.reseaux{
+    top:2.5%;
+    left: 88%;
+    position: absolute;
+    opacity:0.5;
+}
