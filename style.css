@@ -63,24 +63,24 @@ body{
 h2{
     text-align: center;
 }
+
+h2:hover{
+    color: yellow;
+}
+
 #boutique{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 540px;
-    height: 230px;
+    height: 190px;
     margin-top: 20px;
 }
 
 
 fieldset{
     background-color: #C70101;
-}
-
-#boutique. *img{
-    width: 130px;
-    height: 136px;
-    margin-top: 10px;
+    padding: 20px;
 }
 
 input{
@@ -89,7 +89,12 @@ input{
     height: 40px;
     width: 90px;
     text-align: center;
-    margin: 20px 20px;
+    margin: 30px 20px;
+}
+
+input:hover{
+    background-color: yellow;
+    color: #C70101;
 }
 
 
