@@ -1,0 +1,44 @@
+*{
+    background-color: #C70101;
+}
+
+h3{
+    color: yellow;
+    text-align: center;
+}
+
+#box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 110px;
+    width: 1000px;
+    height: 280px;
+}
+fieldset{
+    background-color: black;
+    text-align: center;
+}
+
+div{
+    border: solid black 2px;
+    margin: 10px;
+    text-align: center;
+    width: 900px;
+    height: 250px;
+    background-color: white;
+}
+
+input{
+    background-color: #C70101;
+    color: yellow;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    margin: 13px;
+}
+
+input :hover{
+    background-color: yellow;
+    color: #C70101 ;
+}
